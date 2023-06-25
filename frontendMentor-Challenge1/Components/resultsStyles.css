@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1.12em;
+}
+
+.main-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results-and-summary-container{
+    display: flex;
+    border: 1px solid blue;
+    border-radius: 5%;
+}
+
+.results-container{
+    text-align: center;
+    border-radius: 5%;
+    border: 1px solid blueviolet;
+}
+
+.total-score-container{
+    border-radius: 50%;
+    padding: 1em;
+    border: 1px solid black;
+}
