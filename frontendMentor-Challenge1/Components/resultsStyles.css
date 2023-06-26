@@ -147,3 +147,20 @@ button{
     background-color:  #303b5a;
     margin-top: 2em;
 }
+
+@media(max-width: 425px){
+    .results-and-summary-container{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .result-container{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .result-text-message{
+        max-width: none;
+    }
+}
