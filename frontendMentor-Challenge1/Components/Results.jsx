@@ -4,52 +4,58 @@ const Results = ()=>{
     return(
         <div className="main-container">
             <div className="results-and-summary-container">
-                <div className="results-container">
-                    <p>Your Result</p>
+                <div className="result-container">
+                    <p className="result-title"><strong>Your Result</strong></p>
                     <div className="total-score-container">
-                        <p>76</p>
-                        <p>of 100</p>
+                        <p><strong>76</strong> of 100</p>
                     </div>
-                    <p>Great</p>
-                    <p>You scored higher than 65% of the people who have taken these tests.</p>
+                    <div className="result-text">
+                        <h2><strong>Great</strong></h2>
+                        <p className="result-text-message">You scored higher than 65% of the people who have taken these tests.</p>
+                    </div>
                 </div>
                 <div className="summary-container">
-                    <p>Summary</p>
+                    <p><strong>Summary</strong></p>
                     <div className="stats-container">
                         <div className="stat">
-                            <div className="stat-category">
+                            <div className="stat-category reaction-category">
+                                <img src="/src/assets/images/icon-reaction.svg"></img>
                                 <p>Reaction</p>
                             </div>
                             <div className="stat-score">
-                                <p>80/100</p>
+                                <p><strong>80</strong> / 100</p>
                             </div>
                         </div>
                         <div className="stat">
-                            <div className="stat-category">
+                            <div className="stat-category memory-category">
+                            <img src="/src/assets/images/icon-memory.svg"></img>
                                 <p>Memory</p>
                             </div>
                             <div className="stat-score">
-                                <p>92/100</p>
+                                <p><strong>92</strong> / 100</p>
                             </div>  
                         </div>
                         <div className="stat">
-                            <div className="stat-category">
+                            <div className="stat-category verbal-category">
+                            <img src="/src/assets/images/icon-verbal.svg"></img>
                                 <p>Verbal</p>
                             </div>
                             <div className="stat-score">
-                               <p>60/100</p> 
+                               <p><strong>60</strong> / 100</p> 
                             </div>  
                         </div>
                         <div className="stat">
-                            <div className="stat-category">
+                            <div className="stat-category visual-category">
+                            <img src="/src/assets/images/icon-visual.svg"></img>
                                 <p>Visual</p>
                             </div>
                             <div className="stat-score">
-                                <p>72/100</p> 
+                                <p><strong>72</strong> / 100</p> 
                             </div> 
                         </div>
+                        <button>Continue</button>
                     </div>
-                    <button>Continue</button>
+
                 </div>
             </div>
         </div>
