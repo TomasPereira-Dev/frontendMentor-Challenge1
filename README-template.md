@@ -10,7 +10,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -31,17 +30,8 @@ This project consist in a very simple centered component divided into 2 differen
 Users should be able to:
 - Make a replica of the proposed project, as close to the original as possible and make it responsive so it can be seen right in smartphones.
 
-### Screenshot
 
-[](./src/solutionScreenshot.png)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![solutionScreenshot](https://github.com/TomasPereira-Dev/frontendMentor-Challenge1/assets/81960258/f1c9876a-1a4f-41e0-a914-f9ddaf0e5d24)
 
 ### Links
 
@@ -50,18 +40,19 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+I started with this challenges because, when working in a personal project i notice that my positioning skills were not that great, i needed to improve if my goal was to get a job in this field, so instead of feeling bad and stay on my bed all day i decided to get my hands dirty and start working on it, on having a better eye for small details.
+
+I have already 2 years coding, most of my focus went to React and JS, so it was not very hard to do.
+
+The first thing i did was building the HTML and add the nesessary classes to every element that i needed to modify after looking closely to the image given by the project.
+Because the project consisted in 2 separated sections (the total score and the summary), they were separated in 2 diferent containers, wrapped in a father container to center it in the middle of the screen, adding heigth: 100% to the html, and body and using flexbox to aling it to the center of the page after that i started with the summary section, using flexblox gives you the chance of use the gap property, that alows you to add a gap between every element in the container,  so i added like agap of 1em,then for the color of the diferent categories i used a chrome extention called ColorZilla to pick the exact color for them, it were pretty much the same color of the font buth more transparent, like a very bright tint, also for curiosity i used Coolors to see how far the tint was from the original color.
+
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- [React](https://reactjs.org/) 
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
