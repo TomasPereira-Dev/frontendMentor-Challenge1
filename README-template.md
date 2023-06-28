@@ -17,8 +17,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [About me](#About-me)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 This project consist in a very simple centered component divided into 2 different containers. An ideal project for people who just started with CSS, learn the basics of Flexbox, or for someone who needs to practice and refresh their memory after a long time away from coding.
