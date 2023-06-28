@@ -19,7 +19,7 @@ const Results = ()=>{
                     <div className="stats-container">
                         <div className="stat">
                             <div className="stat-category reaction-category">
-                                <img src="src\assets\icon-reaction.svg"></img>
+                                <img src="src/assets/icon-reaction.svg"></img>
                                 <p>Reaction</p>
                             </div>
                             <div className="stat-score">
@@ -28,7 +28,7 @@ const Results = ()=>{
                         </div>
                         <div className="stat">
                             <div className="stat-category memory-category">
-                            <img src="src\assets\icon-memory.svg"></img>
+                            <img src="src/assets/icon-memory.svg"></img>
                                 <p>Memory</p>
                             </div>
                             <div className="stat-score">
@@ -46,7 +46,7 @@ const Results = ()=>{
                         </div>
                         <div className="stat">
                             <div className="stat-category visual-category">
-                            <img src="src\assets\icon-visual.svg"></img>
+                            <img src="src/assets/icon-visual.svg"></img>
                                 <p>Visual</p>
                             </div>
                             <div className="stat-score">
