@@ -1,96 +1,79 @@
-# Frontend Mentor - Results summary component
+# Frontend Mentor - Results summary component solution
 
-![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
+Hey, what's up?.
 
-## Welcome! 👋
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV).
 
-Thanks for checking out this front-end coding challenge.
+(free) Newbie challenge 1/18
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Table of contents
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [About me](#About-me)
 
-## The challenge
+## Overview
 
-Your challenge is to build out this results summary component and get it looking as close to the design as possible.
+This project consist in a very simple centered component divided into 2 different containers. An ideal project for people who just started with CSS, learn the basics of Flexbox, or for someone who needs to practice and refresh their memory after a long time away from coding.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### The challenge
 
-We provide the data for the results in a local `data.json` file. So you can use that to add the results and total score dynamically if you choose.
+Users should be able to:
+- Make a replica of the proposed project, as close to the original as possible and make it responsive so it can be seen right in smartphones.
 
-Your users should be able to:
+![solutionScreenshot](https://github.com/TomasPereira-Dev/frontendMentor-Challenge1/assets/81960258/f1c9876a-1a4f-41e0-a914-f9ddaf0e5d24)
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+### Links
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## Where to find everything
+## My process
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+I started with this challenges because, when working in a personal project i notice that my positioning skills were not that great, i needed to improve if my goal was to get a job in this field, so instead of feeling bad and stay on my bed all day i decided to get my hands dirty and start working on it, on having a better eye for small details.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+I have already spent 2 years coding, most of my focus went to React and JS, so it was not very hard to do.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+The first thing I did was build the HTML and add the necessary classes to every element that I needed to modify after looking closely at the image given by the project. Because the project consisted in 2 separated sections (the total score and the summary), they were separated in 2 different containers, wrapped in a father container to center it in the middle of the screen, adding height: 100% to the html, and body and using flexbox to align it to the center of the page, after that I started with the summary section, using flexbox gives you the chance of use the gap property, that allows you to add a gap between every element in the container, so i added like a gap of 1em, then for the color of the different categories i used a chrome extension called ColorZilla to pick the exact color for them, it were pretty much the same color of the font but more transparent, like a very bright tint, also for curiosity i used Coolors to see how far the tint was from the original color. If you look at the score of every category you will notice at first glance that one part is black and the other gray,  but it’s not, the bolded, darker part is the same color of the continue button, like a dark blue with low saturation(lower saturation = more grayish the color will be).
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+It might be a small detail but it’s important to know why it’s not a total black color, in real life we hardly see pure whites and blacks, the same goes with grays, when we see them in a screen they don’t look natural at all and gives you the feel that something is off, that’s why you should low the saturation or give more hue to the colors you use in your designs and avoid using pure white, black or gray. I recommend you to read this article when you have the time, it explains this in more detail.
+[](https://blog.prototypr.io/how-to-use-colors-in-ui-design-16406ec06753)
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+For the fonts, I’m not so sure if they are correct, I mostly used p tags for most of them, when i needed to add more attention to some things, I used strong tags to make them bold, some strong tags are modified to have its text with more font-weight or size. I didn’t used headings tags like h1 or h2 because there were too big and feel like something is wrong, also there was no main title to have a hierarchy, you should only use h1 once in a page in the main title, if there is no h1, what's the use of an h2? there is no main title to add a subtitle there, here I did a mistake, in the total score text section there is a h2, I tried adding more size and weight to a p for that part but never looked too similar to the reference image, the closest i got was using a h2 tag, so if anybody can help me with this it will be appreciated.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+In the total score section there was some text that needed to have a limit, when its text became too long it should continue in a new row, for that I added a max-width to that p using ch as the unit of measurement, ch is based on the relative width of the zero character of the font, it’s a easy way to calculate that max-width pretty much with the amount of characters written, I got this tip from a Kevin Powell video, it haves other useful tips so check it out, also check his entire channel, he is the god of css, an absolute legend 🙂.
 
-## Building your project
+[](https://www.youtube.com/watch?v=6ardZEhjvV0)
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+I did this trick also for the score inside the circle, but there is something that don’t work exactly as i want, while it looks pretty similar to the reference image, if you change the text to a 100 of 100 score, for example, it doesn’t look as nice as it should, maybe it’s a problem with the challenge itself or it’s something I did wrong, so if somebody got a better way to do this I’m happy to hear it.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+The backgrounds and gradients are no problem, they are already in the style guides so I will skip that part.
 
-## Deploying your project
+The last part is the responsive version, I only did it for phones because the reference image have only 2 examples, for desktops and for phones, there is only 2 changes, the first one is a change of the flex-direction of the component container, from row to column, the second one is a change to the top right and top left borders of the total score container, from 5% no none.
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+And that’s it, this project took me around 6 hours total to finish (12 pomodoros with the pomodoro technique), I think maybe I need to work on writing code faster.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+### Built with
 
-## Create a custom `README.md`
+- [React](https://reactjs.org/) 
+- Flexbox
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### What I learned
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+I didn’t learn a lot of new things, except for using the ch unit for limit a row from growing with max-width in texts.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+### Continued development
 
-## Submitting your solution
+I feel that I want to get better at design and color, but this challenge already gave you the answers to all of that, so I want to focus on that and with positioning, its one of my weakneses.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+## About me
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- My Portfolio - [Tomás Pereira]([https://www.your-site.com](https://tomaspereira-dev.github.io/Portfolio/))
+- Frontend Mentor - [@TomasPereira-Dev](https://www.frontendmentor.io/profile/TomasPereira-Dev)
+- Twitter - [@TomasPereira_JS](https://www.twitter.com/TomasPereira_JS)
