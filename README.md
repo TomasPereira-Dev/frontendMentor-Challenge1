@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: []([https://your-solution-url.com](https://www.frontendmentor.io/solutions/results-summary-component-made-with-react-and-flexbox-cJ89ONwVT7))
+- Live Site URL: [](https://tomaspereira-dev.github.io/frontendMentor-Challenge1/)
 
 ## My process
 
