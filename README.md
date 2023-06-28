@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: []([https://your-solution-url.com](https://www.frontendmentor.io/solutions/results-summary-component-made-with-react-and-flexbox-cJ89ONwVT7))
+- Live Site URL: [](https://tomaspereira-dev.github.io/frontendMentor-Challenge1/)
 
 ## My process
 
@@ -74,7 +74,7 @@ I feel that I want to get better at design and color, but this challenge already
 
 ## About me
 
-- My Portfolio - [Tomás Pereira]([https://www.your-site.com](https://tomaspereira-dev.github.io/Portfolio/))
+- My Portfolio - [Tomás Pereira](https://tomaspereira-dev.github.io/Portfolio/)
 - Frontend Mentor - [@TomasPereira-Dev](https://www.frontendmentor.io/profile/TomasPereira-Dev)
 - Twitter - [@TomasPereira_JS](https://www.twitter.com/TomasPereira_JS)
 
