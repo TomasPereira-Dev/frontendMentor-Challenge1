@@ -10,7 +10,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -27,11 +26,6 @@ Users should be able to:
 - Make a replica of the proposed project, as close to the original as possible and make it responsive so it can be seen right in smartphones.
 
 ![solutionScreenshot](https://github.com/TomasPereira-Dev/frontendMentor-Challenge1/assets/81960258/f1c9876a-1a4f-41e0-a914-f9ddaf0e5d24)
-
-### Links
-
-- Solution URL: []([https://your-solution-url.com](https://www.frontendmentor.io/solutions/results-summary-component-made-with-react-and-flexbox-cJ89ONwVT7))
-- Live Site URL: [](https://tomaspereira-dev.github.io/frontendMentor-Challenge1/)
 
 ## My process
 
